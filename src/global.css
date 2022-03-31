@@ -8,10 +8,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.App {
-   
+.container {
+    width: 100%;
     display: flex;
     flex-direction: column;
-    
+    align-items:center;
+}
+.App {
+   width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    height: 50px;
+    width: 100%;
+    background: red;
+    display:flex;
 }

@@ -1,7 +1,7 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from './pages/Home';
 import SearchAppBar from './components/Header';
-import './global.css'
+import './global.css';
 
 
 function App() {
@@ -9,14 +9,16 @@ function App() {
 
 
   return (
-    <div className="App">
-      <BrowserRouter>
-        <SearchAppBar/>
-        <Routes>
-          <Route exact path="/" element={<Home/>}/>
-        </Routes>
-      </BrowserRouter>
-    </div>
+    <BrowserRouter>
+      <div className="container">
+        <div className="App">
+          <SearchAppBar/>
+            <Routes>
+              <Route exact path="/" element={<Home/>}/>
+            </Routes>
+        </div>
+      </div>
+    </BrowserRouter>
   )
 }
 
