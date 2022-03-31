@@ -1,12 +1,23 @@
-import { useState } from 'react'
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import Home from './pages/Home'
+import SearchAppBar from './Header/'
+
 
 
 function App() {
  
 
+
   return (
     <div className="App">
-      hello world
+      <BrowserRouter>
+        <SearchAppBar/>
+        <Routes>
+          <Route exact path="/" element={<Home/>}/>
+          
+        </Routes>
+      </BrowserRouter>
+
     </div>
   )
 }
