@@ -1,8 +1,8 @@
-import camisapreta from './media/camisapreta.jpg';
-import camisabranca from './media/camisabranca.jpg';
-import camisalaranja from './media/camisalaranja.jpg';
-import camisavermelha from './media/camisapreta.jpg';
-import calcasocial from './media/calcasocial.jpg'
+import camisapreta from '../assets/media/camisapreta.jpg';
+import camisabranca from '../assets/media/camisabranca.jpg';
+import camisalaranja from '../assets/media/camisalaranja.jpg';
+import camisavermelha from '../assets/media/camisapreta.jpg';
+import calcasocial from '../assets/media/calcasocial.jpg';
 
 export const roupas = [
   {
