@@ -9,6 +9,12 @@ import {roupas} from '../../services/api'
     console.log(roupas)
   }, [])
 
+
+  function testarDudu(){
+    alert('NAO SABIA QUE SUA ESPOSA ERA CASADA')
+  }
+
+  testarDudu();
   return(
     <div>
       {/* <ul>
@@ -20,6 +26,8 @@ import {roupas} from '../../services/api'
         <li>SAPATOS</li>
         <li>CONTATO</li>
       </ul> */}
+
+
 
 
       {roupas.map((item)=>  
