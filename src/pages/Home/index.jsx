@@ -11,7 +11,7 @@ import {roupas} from '../../services/api'
 
 
   function testarDudu(){
-    alert('NAO SABIA QUE SUA ESPOSA ERA CASADA')
+    alert('CIGARRO???????')
   }
 
   
