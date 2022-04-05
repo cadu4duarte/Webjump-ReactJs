@@ -3,6 +3,7 @@ header {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    
 }
 
 header ul {
@@ -19,9 +20,9 @@ li a {
 }
 
 header img{
-width: 100px;
-height: auto;
-margin-top: 10px;
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
 }
 
 .headerContent {
@@ -29,4 +30,5 @@ margin-top: 10px;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    background: red;
 }
