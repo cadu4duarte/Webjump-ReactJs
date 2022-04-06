@@ -13,16 +13,20 @@ header ul {
 header ul li {
     list-style: none;
     margin: 0 10px;
+    font-size: 16px;
+    
 }
 
 li a {
     text-decoration: none;
+    color: #fff;
 }
 
-header img{
+header img {
     width: 100px;
     height: auto;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .headerContent {
@@ -30,5 +34,35 @@ header img{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background: red;
+    background: #CB0D1F;
+    width: 100%;
+    height: 30px;
+}
+
+.header-container {
+    margin-left: 20px;
+}
+
+.header-container a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.header-container input {
+    margin-left: 10px;
+    height: 30px;
+}
+
+.header-container button {
+    height: 30px;
+    border: solid 1px;
+    width: 70px;
+    overflow: hidden;
+    transition: 1s all ease;
+}
+
+.header-container button:hover {
+    background: rgb(216, 212, 212);
+    cursor: pointer;
 }
