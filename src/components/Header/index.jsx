@@ -7,6 +7,7 @@ export default function Header() {
         <header>
           <img src={GymLogo} alt="logo academia"></img>
           <div className="headerContent">
+          
 
             <div className="header-container">
               <Link className="logo" to="/">Webstore</Link>
@@ -14,6 +15,9 @@ export default function Header() {
               <button className="btnBuscar">BUSCAR</button>
             </div>
             <ul>
+              <li>
+                <Link to="/camisas">teste</Link>
+              </li>
               <li><a href="#">Camiseta</a></li>
               <li><a href="#">Boné</a></li>
               <li><a href="#">Tenis</a></li>
