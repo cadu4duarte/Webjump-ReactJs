@@ -8,12 +8,6 @@
 }
 
 .main-container p {
-    border: 1px solid red;
+    border: 1px solid #CB0D1F;
 }
 
-.container-Content {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 10px;
-    justify-content:center;
-}

@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import GymLogo from '../../assets/media/4x.png';
 import './style.css';
+
 export default function Header() {
   return(
         <header>
@@ -16,9 +17,11 @@ export default function Header() {
             </div>
             <ul>
               <li>
-                <Link to="/camisas">teste</Link>
+                
               </li>
-              <li><a href="#">Camiseta</a></li>
+              <li>
+                <Link to="/camisas">Camisas</Link>
+              </li>
               <li><a href="#">Boné</a></li>
               <li><a href="#">Tenis</a></li>
               <li><a href="#">Acessórios</a></li>

@@ -3,7 +3,7 @@ import Home from './pages/Home';
 import Header from './components/Header';
 import Footer from './pages/Footer/footer';
 import './global.css';
-import Teste from './pages/teste/teste';
+import Camisas from './pages/Camisas/camisas';
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
           <Header/>
             <Routes>
               <Route exact path="/" element={<Home/>}/>
-              <Route exact path="/camisas" element={<Teste/>}/>
+              <Route exact path="/camisas" element={<Camisas/>}/>
             </Routes>
             <Footer/>
         </div>

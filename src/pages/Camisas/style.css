@@ -1,0 +1,22 @@
+.container-Content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  justify-content:center;
+}
+
+.produto {
+  border: 1px solid red;
+  width: 250px;
+  height: 350px;
+}
+
+.btnCompra {
+  width: 200px;
+  height: 40px;
+  background: #00A8A9;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+
+}
