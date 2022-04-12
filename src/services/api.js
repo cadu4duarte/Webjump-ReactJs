@@ -40,7 +40,8 @@ export const roupas = [
     photo: calcasocial,
     categoria: "calça"
    }
- 
 ]
+
+
 
   

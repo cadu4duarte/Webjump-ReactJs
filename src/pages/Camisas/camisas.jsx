@@ -1,8 +1,12 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {roupas} from '../../services/api'
 import "./style.css"
 
 export default function Teste() {
+ 
+  
+  
+
   return(
     
 
