@@ -22,7 +22,9 @@ export default function Header() {
               <li>
                 <Link to="/camisas">Camisas</Link>
               </li>
-              <li><a href="#">Boné</a></li>
+              <li>
+                <Link to="/calcas">Calças</Link>
+              </li>
               <li><a href="#">Tenis</a></li>
               <li><a href="#">Acessórios</a></li>
             </ul>
