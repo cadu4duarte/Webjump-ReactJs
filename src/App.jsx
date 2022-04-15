@@ -5,6 +5,7 @@ import Footer from './pages/Footer/footer';
 import './global.css';
 import Camisas from './pages/Camisas/camisas';
 import Calcas from './pages/Calcas/calcas';
+import Sapatos from './pages/Sapatos/sapatos';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
               <Route exact path="/" element={<Home/>}/>
               <Route exact path="/camisas" element={<Camisas/>}/>
               <Route exact path="/calcas" element={<Calcas/>}/>
+              <Route exact path="/sapatos" element={<Sapatos/>}/>
             </Routes>
             <Footer/>
         </div>
