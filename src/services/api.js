@@ -71,21 +71,12 @@ export const roupas = [
     categoria: "calça"
   },
 
-  {
-    nome: "teste",
-    preco: 20,
-    photo: calcapreta,
-    categoria: "calça"
-  },
-
    {
      nome: "Sapato preto",
      preco: 20,
      photo: shoes1,
      categoria: "sapato"
    },
-
-   
 
    {
      nome: "Sapatênis preto",
@@ -99,14 +90,7 @@ export const roupas = [
     preco: 20,
     photo: shoes4,
     categoria: "sapato"
-  },
-   
-   {
-    nome: "Camisa vermelha",
-    preco: 20,
-    photo: camisavermelha,
-    categoria: "camisa"
-  },
+  }
    
 ]
 

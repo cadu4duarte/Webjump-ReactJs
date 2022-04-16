@@ -9,7 +9,10 @@
 .produtoCamisas {
   border: 1px solid red;
   width: 250px;
-  
+}
+
+.produtoCamisas img {
+  width: 200px;
 }
 
 .btnCompraCamisas {
