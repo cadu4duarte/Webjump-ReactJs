@@ -7,13 +7,13 @@ export default function Teste() {
   return(
     
 
-    <div className="container-Content">
+    <div className="container-Camisas">
       {roupas.filter(item => item.categoria === 'camisa').map((item)=> 
-        <div className="produto" key={Math.random()}>
+        <div className="produtoCamisas" key={Math.random()}>
           <img src={item.photo} />
           <h2>{item.nome}</h2> <br/>
           <p>R$ {item.preco}</p>
-          <button className="btnCompra">COMPRAR</button>
+          <button className="btnCompraCamisas">COMPRAR</button>
         
         </div>)}
        

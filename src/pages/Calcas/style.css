@@ -1,4 +1,4 @@
-.container-Camisas {
+.container-Calcas {
   display: flex;
   flex-wrap: wrap;
   margin-top: 10px;
@@ -6,13 +6,13 @@
   width: 100%;
 }
 
-.produtoCamisas {
+.produtoCalcas {
   border: 1px solid red;
   width: 250px;
   
 }
 
-.btnCompraCamisas {
+.btnCompraCalcas {
   width: 200px;
   height: 40px;
   background: #00A8A9;

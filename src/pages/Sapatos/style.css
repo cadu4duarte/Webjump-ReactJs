@@ -1,4 +1,4 @@
-.container-Camisas {
+.container-Sapatos {
   display: flex;
   flex-wrap: wrap;
   margin-top: 10px;
@@ -6,13 +6,13 @@
   width: 100%;
 }
 
-.produtoCamisas {
+.produtoSapatos {
   border: 1px solid red;
   width: 250px;
   
 }
 
-.btnCompraCamisas {
+.btnCompraSapatos {
   width: 200px;
   height: 40px;
   background: #00A8A9;
