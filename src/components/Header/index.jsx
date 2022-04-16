@@ -14,6 +14,7 @@ export default function Header() {
               <Link className="logo" to="/">Webstore</Link>
               <input type="text" className="inputBuscar"></input>
               <button className="btnBuscar">BUSCAR</button>
+              <Link to="https://github.com/cadu4duarte/Webjump-ReactJs.git">testando</Link>
             </div>
             <ul>
               <li>
