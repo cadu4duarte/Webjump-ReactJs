@@ -6,6 +6,7 @@ import './global.css';
 import Camisas from './pages/Camisas/camisas';
 import Calcas from './pages/Calcas/calcas';
 import Sapatos from './pages/Sapatos/sapatos';
+import Todos from './pages/Todos/todos'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
               <Route exact path="/camisas" element={<Camisas/>}/>
               <Route exact path="/calcas" element={<Calcas/>}/>
               <Route exact path="/sapatos" element={<Sapatos/>}/>
+              <Route exact path="/todos" element={<Todos/>}/>
             </Routes>
             <Footer/>
         </div>

@@ -29,7 +29,9 @@ export default function Header() {
               <li>
                 <Link to="/sapatos">Sapatos</Link>
               </li>
-              <li><a href="#">Acessórios</a></li>
+              <li>
+                <Link to="/todos">Todos os itens</Link>
+              </li>
             </ul>
           </div>
         </header>

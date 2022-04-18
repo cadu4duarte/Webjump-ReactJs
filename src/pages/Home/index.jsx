@@ -24,8 +24,9 @@ import './style.css';
    
 
     <div className="main-container">
-      <img src="https://www.claridges.co.uk/siteassets/health-club--spa/temporary-2021/gym-hero.jpg"/>
       <h1>Seja bem-vindo!</h1>
+      <img src="https://www.claridges.co.uk/siteassets/health-club--spa/temporary-2021/gym-hero.jpg"/>
+      
       
       {/* <div className="container-Content">
         {roupasRender.map((item)=>  

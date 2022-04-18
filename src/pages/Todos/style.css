@@ -1,4 +1,4 @@
-.container-Camisas {
+.container-Todos {
   display: flex;
   flex-wrap: wrap;
   margin-top: 10px;
@@ -7,16 +7,16 @@
   margin-bottom: 10%;
 }
 
-.produtoCamisas {
+.produtoTodos {
   border: 1px solid red;
   width: 250px;
 }
 
-.produtoCamisas img {
+.produtoTodos img {
   width: 200px;
 }
 
-.btnCompraCamisas {
+.btnCompraTodos {
   width: 200px;
   height: 40px;
   background: #00A8A9;
