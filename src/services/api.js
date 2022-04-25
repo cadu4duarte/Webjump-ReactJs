@@ -18,78 +18,88 @@ export const roupas = [
     nome: "Camisa preta",
     preco: 20,
     photo: camisapreta,
-    categoria: "camisa"
+    categoria: "camisa",
+    tamanho: "p"
    },
 
    {
     nome: "Camisa laranja",
     preco: 20,
     photo: camisalaranja,
-    categoria: "camisa"
-
+    categoria: "camisa",
+    tamanho: "m"
    },
 
    {
      nome: "Camisa branca",
      preco: 20,
      photo: camisabranca,
-     categoria: "camisa"
+     categoria: "camisa",
+     tamanho: "g"
     },
 
    {
      nome: "Camisa vermelha",
      preco: 20,
      photo: camisavermelha,
-     categoria: "camisa"
+     categoria: "camisa",
+     tamanho: "p"
    },
 
    {
     nome: "Calça social",
     preco: 20,
     photo: calcasocial,
-    categoria: "calça"
+    categoria: "calça",
+    tamanho: "p"
    },
 
    {
      nome: "Calça moleton",
      preco: 20,
      photo: calcamoleton,
-     categoria: "calça"
+     categoria: "calça",
+     tamanho: "p"
    },
 
    {
      nome: "Calça preta",
      preco: 20,
      photo: calcapreta1,
-     categoria: "calça"
+     categoria: "calça",
+     tamanho: "p"
    },
 
    {
     nome: "Legging",
     preco: 20,
     photo: legging,
-    categoria: "calça"
+    categoria: "calça",
+    tamanho: "p"
   },
 
    {
      nome: "Sapato preto",
      preco: 20,
      photo: shoes1,
-     categoria: "sapato"
+     categoria: "sapato",
+     tamanho: "p"
    },
 
    {
      nome: "Sapatênis preto",
      preco: 20,
      photo: shoes3,
-     categoria: "sapato"
+     categoria: "sapato",
+     tamanho: "p"
    },
 
    {
     nome: "Sapatênis preto",
     preco: 20,
     photo: shoes4,
-    categoria: "sapato"
+    categoria: "sapato",
+    tamanho: "p"
   }
    
 ]
