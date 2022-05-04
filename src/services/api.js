@@ -43,7 +43,7 @@ export const roupas = [
      preco: 20,
      photo: camisavermelha,
      categoria: "camisa",
-     tamanho: "p"
+     tamanho: "m"
    },
 
    {
@@ -51,7 +51,7 @@ export const roupas = [
     preco: 20,
     photo: calcasocial,
     categoria: "calça",
-    tamanho: "p"
+    tamanho: "m"
    },
 
    {
@@ -59,7 +59,7 @@ export const roupas = [
      preco: 20,
      photo: calcamoleton,
      categoria: "calça",
-     tamanho: "p"
+     tamanho: "g"
    },
 
    {
@@ -75,7 +75,7 @@ export const roupas = [
     preco: 20,
     photo: legging,
     categoria: "calça",
-    tamanho: "p"
+    tamanho: "g"
   },
 
    {
